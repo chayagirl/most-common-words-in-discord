@@ -16,7 +16,14 @@ In order to run this, you're gonna have to download Tyrrrz's [DiscordChatExporte
 
 It's included with your download, but this also uses d99kris's [rapidcsv](https://github.com/d99kris/rapidcsv) library to parse data. My fork only adds some CLI output to make waiting for the command to finish more interesting.
 
+The function that finds the most common words is adapted from a [Leetcode solution](https://leetcode.com/problems/top-k-frequent-elements/solutions/3235889/c-simple-and-efficient-solution-heap-priority-queue-hash-table/) by [Jaividyasagar](https://leetcode.com/Jaividyasagar/).
+
 This would not have been possible with either of these projects, so please give them your support!
+
+When you download, make sure to use the --recursive flag to get the submodule:
+```
+git clone --recursive https://github.com/chayagirl/most-common-words-in-discord.git
+```
 
 ## Linux
 To export the channel using DiscordChatExporter CLI:

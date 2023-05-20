@@ -18,6 +18,11 @@ It's included with your download, but this also uses d99kris's [rapidcsv](https:
 
 This would not have been possible with either of these projects, so please give them your support!
 
+When you download, make sure to use the --recursive flag to get the submodule:
+```
+git clone --recursive https://github.com/chayagirl/most-common-words-in-discord.git
+```
+
 ## Linux
 To export the channel using DiscordChatExporter CLI:
 ```

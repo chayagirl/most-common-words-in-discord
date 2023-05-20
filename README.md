@@ -10,7 +10,7 @@ Most of what you see in its output is just gonna be common words, but it's reall
 
 
 # Usage
-In order to run this, you're gonna have to download Tyrrrz's[DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter). All you need to do is export your desired Discord channel as a CSV.
+In order to run this, you're gonna have to download Tyrrrz's [DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter). All you need to do is export your desired Discord channel as a CSV.
 
 It's included with your download, but this also uses d99kris's [rapidcsv](https://github.com/d99kris/rapidcsv) library to parse data. My fork only adds some CLI output to make waiting for the command to finish more interesting.
 

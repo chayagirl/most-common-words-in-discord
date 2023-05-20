@@ -7,6 +7,8 @@
 #include "rapidcsv.h"
 
 //function to find most common words
+//code adapted from Leetcode solution here: https://leetcode.com/problems/top-k-frequent-elements/solutions/3235889/c-simple-and-efficient-solution-heap-priority-queue-hash-table/
+//thank you Jai Vidyasagar R! Let me know if you want this code taken down.
 std::vector<std::string> topKFrequent(std::vector<std::string>& nums, std::vector<int>& occurs, int k) {
     std::map<std::string, int> hashmap;
     std::vector<std::string> ans;

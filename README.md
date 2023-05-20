@@ -8,6 +8,8 @@ I wrote this because I was curious about the most common words in my friend's Di
 
 Most of what you see in its output is just gonna be common words, but it's really cool to check out the randomass words/neologisms that pop up with way more prevalence than you expect.
 
+**Note: you might see a lot of errors!** rapidcsv is great but it doesn't correctly parse cells with newlines in them, which is awkward! I tried to add this functionality but i gave up ): My working solution is that whenever the program encounters a broken parsing, it just skips over it in the calculation. It's dumb and definitely not good coding practice, but it does work!
+
 
 # Usage
 In order to run this, you're gonna have to download Tyrrrz's [DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter). All you need to do is export your desired Discord channel as a CSV.
@@ -30,3 +32,9 @@ Once the CSV file is downloaded, you can run the Makefile to compile `parse-csv.
 `TOP_K` defines how deep the most common words list will travel. For instance, if you input 10 here, you'll get the 10 most common words in the channel.
 
 The system should display some completion info and then tell you it's Done! and then you can look at the file.
+
+## Mac
+IDK man. I don't have a Mac.
+
+## Windows
+You can use the GUI version of DiscordChatExporter if you want! And you can def compile this on Windows with MSVC or MinGW GCC, tho I haven't tried it. I'm sure you can figure out the specifics!

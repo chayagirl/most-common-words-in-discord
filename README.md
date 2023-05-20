@@ -30,3 +30,9 @@ Once the CSV file is downloaded, you can run the Makefile to compile `parse-csv.
 `TOP_K` defines how deep the most common words list will travel. For instance, if you input 10 here, you'll get the 10 most common words in the channel.
 
 The system should display some completion info and then tell you it's Done! and then you can look at the file.
+
+## Mac
+IDK man. I don't have a Mac.
+
+## Windows
+You can use the GUI version of DiscordChatExporter if you want! And you can def compile this on Windows with MSVC or MinGW GCC, tho I haven't tried it. I'm sure you can figure out the specifics!

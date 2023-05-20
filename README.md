@@ -8,6 +8,8 @@ I wrote this because I was curious about the most common words in my friend's Di
 
 Most of what you see in its output is just gonna be common words, but it's really cool to check out the randomass words/neologisms that pop up with way more prevalence than you expect.
 
+**Note: you might see a lot of errors!** rapidcsv is great but it doesn't correctly parse cells with newlines in them, which is awkward! I tried to add this functionality but i gave up ): My working solution is that whenever the program encounters a broken parsing, it just skips over it in the calculation. It's dumb and definitely not good coding practice, but it does work!
+
 
 # Usage
 In order to run this, you're gonna have to download Tyrrrz's [DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter). All you need to do is export your desired Discord channel as a CSV.

@@ -1,0 +1,3 @@
+[submodule "rapidcsv"]
+	path = rapidcsv
+	url = https://github.com/chayagirl/rapidcsv
